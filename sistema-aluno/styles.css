@@ -1,0 +1,48 @@
+titulo {
+    display: flex;
+    justify-content:space-between ;
+    background-color: rgb(170, 154, 108);
+}
+
+titulo > img {
+    height: 110px;
+    width: 90px;
+}
+
+titulo > nav {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       width: 300px;
+}
+
+titulo nav> a:link {
+    text-decoration: none;
+}
+
+titulo nav> a:hover {
+    color:red
+}
+
+.principal {
+    display: flex;
+    height: 400px;
+}
+
+.principal > section {
+    flex: 2;
+    background-color: rgb(94, 89, 67);
+}
+
+.principal > aside {
+    flex: 1;
+    background-color: rgb(201, 186, 139);
+}
+
+footer {
+    background-color: rgb(170, 154, 108);
+    height:150px ;
+}
+
+
+
